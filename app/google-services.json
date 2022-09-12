@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424417607556",
+    "firebase_url": "https://wormhole-fae6c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "wormhole-fae6c",
+    "storage_bucket": "wormhole-fae6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424417607556:android:67587404eac1fd0d0ca7d1",
+        "android_client_info": {
+          "package_name": "com.example.wormhole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424417607556-9dc144tfafa0mlcuhjjcja5t9vmk9co6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkHAi8XiscZH70jlg6GVcY6qoz-ol1Ry0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424417607556-9dc144tfafa0mlcuhjjcja5t9vmk9co6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

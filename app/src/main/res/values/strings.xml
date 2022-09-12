@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">WormHole</string>
+    <string name="sub_title">Chat with your friends like you are next to them</string>
+    <string name="welcome">Welcome back!</string>
+    <string name="name">Name</string>
+    <string name="email">Email Address</string>
+    <string name="pass">Password</string>
+    <string name="Cpass">Confirm password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="im_new">I am new user</string>
+    <string name="register">Sign up</string>
+    <string name="im_user">Already have an account</string>
+    <string name="account">Create Account</string>
+    <string name="err_login">Error in Login</string>
+    <string name="valid_data">Enter valid data</string>
+    <string name="invalid_mail">Invalid Email</string>
+    <string name="invalid_pass">Please enter valid password</string>
+    <string name="nmatch_pass">Password does not match</string>
+    <string name="user_created">User Created Succesfully</string>
+    <string name="wrong">Something Went Wrong</string>
+    <string name="err_user">Error in creating a new user</string>
+    <string name="wait">Please Wait. . .</string>
+    <string name="sure">Are you sure want to Log Out?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="write_msg">Write a message</string>
+    <string name="enter_msg">Please enter a valid message</string>
+    <string name="st_text">Hey there! Im using WormHole</string>
+    <string name="data_success">Data Successfully Updated</string>
+    <string name="status">Status</string>
+
+
+</resources>

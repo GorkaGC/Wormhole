@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sub_title">Charla con tus amigos como si estuvieras a su lado</string>
+    <string name="welcome">Hola de nuevo!</string>
+    <string name="name">Nombre</string>
+    <string name="email">Correo electronico</string>
+    <string name="pass">Contraseña</string>
+    <string name="Cpass">Confirme la contraseña</string>
+    <string name="sign_in">Acceder</string>
+    <string name="im_new">Soy nuevo usuario</string>
+    <string name="register">Registrarse</string>
+    <string name="im_user">Ya tengo una cuenta</string>
+    <string name="account">Crear cuenta</string>
+    <string name="err_login">Error al logear</string>
+    <string name="valid_data">Pon datos validos</string>
+    <string name="invalid_mail">Correo no valido</string>
+    <string name="invalid_pass">Introduce una contraseña correcta</string>
+    <string name="nmatch_pass">La contraseña no coincide</string>
+    <string name="user_created">Usuario creado correctamente</string>
+    <string name="err_user">Error al crear el usuario</string>
+    <string name="wrong">Algo salio mal</string>
+    <string name="wait">Porfavor espere. . .</string>
+    <string name="sure">¿Seguro que quieres cerrar sesion?</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="write_msg">Escribe un mensaje</string>
+    <string name="enter_msg">Porfavor introduzca un valor valido</string>
+    <string name="st_text">Hola! Estoy usando WormHole</string>
+    <string name="data_success">Datos actualizados correctamente</string>
+    <string name="status">Estado</string>
+
+
+</resources>

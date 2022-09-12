@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="start"
+    android:background="#A999C6"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingsActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@color/pr_purple"
+        android:gravity="end"
+        android:orientation="horizontal"
+        >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:fontFamily="@font/spartan_bold"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:text="EDIT PROFILE"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp" />
+
+
+    <ImageView
+        android:id="@+id/save"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/ic_done"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_profile_img"/>
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#8732AC"
+        app:civ_border_width="3dp" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/pr_purple"
+        android:fontFamily="@font/spartan_bold"
+        android:text="@string/name"
+        />
+    <EditText
+        android:id="@+id/setting_name"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="normal"
+        android:fontFamily="@font/spartan_regular"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textColor="@color/pr_purple"
+        android:fontFamily="@font/spartan_bold"
+        android:text="@string/status"
+        />
+
+
+    <EditText
+        android:id="@+id/setting_status"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="normal"
+        android:fontFamily="@font/spartan_regular"
+        android:text="@string/st_text"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
